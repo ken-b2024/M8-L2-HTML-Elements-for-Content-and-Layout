@@ -1,0 +1,87 @@
+fieldset {
+    background-color: aqua;
+    border-radius: 5%;
+    border: 2px solid;
+    margin: 2%;
+    box-shadow:8px 8px rgb(138, 0, 138);
+    text-align: center;
+    width: 42%;
+}
+.titlebox {
+    padding: 0.3rem;
+    font-size: 28pt;
+}
+.labelbox {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+
+}
+.txtbox {
+    margin-bottom: -5rem;
+    font-size: 16pt;
+}
+div button {
+    width: 6rem;
+    height: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 15pt;
+    font-weight: bold;
+    box-shadow: 2px 3px;
+    transition-duration: 5ms;
+}
+div button:hover {
+    width: 5.8rem;
+    height: 1.6rem;
+    motion: 15%;
+}
+.reset_btn {
+    margin-right: 2rem;
+}
+nav div {
+    margin-top: 2rem;
+    margin-right: -0.5rem;
+    margin-bottom: 2rem;
+    padding: 0.9rem;
+    list-style-type: square;
+    list-style-position: inside;
+    text-align: center;
+    background-color: darkgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21pt;
+    font-weight: bolder;
+    display: inline-block;
+    transition-duration: 5ms;
+    /* border: 3px solid blue; */
+}
+nav div:hover {
+    background-color: aqua;
+    color: black;
+}
+.liclass1 {
+    width: 9rem;
+}
+.liclass2 {
+    width: 10rem;
+}
+.liclass3 {
+    width: 12rem;
+}
+.liclass4 {
+    width: 11.6rem;
+}
+.table {
+    width: 21rem;
+    height: 21rem;
+    text-wrap: wrap;
+    border-radius: 5%;
+}
+tr:nth-child(odd) {
+    background-color:lightblue;
+    font-size: 14pt;
+}
+table td:hover {
+    background-color: darkblue;
+    color: aliceblue;
+    font-size: 18pt;
+}
